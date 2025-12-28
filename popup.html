@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZipZip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="header">
+      <span class="material-symbols-outlined icon">folder_code</span>
+      <h1 class="title">ZipZip</h1>
+    </div>
+    <hr class="separator">
+    <div class="btnNav">
+      <button id="compressBtn" class="btn-unactive btn-active">
+        Compress
+      </button>
+      <button id="decompressBtn" class="btn-unactive">
+        Decompress
+      </button>
+      <button id="infoBtn" class="btn-unactive">
+        Info
+      </button>
+    </div>
+    <div class="infoSection">
+        <span class="material-symbols-outlined info">info</span>
+        <div class="infoContent">
+          <h3 class="infoTitle">Fast & Easy</h3>
+          <p class="infoSub">Files are compressed and decompressed quickly, easily and locally.</p>
+        </div>      
+    </div>
+    <div>
+    <div class="attachmentArea">
+      <input type="file" class="fileInput" multiple hidden>
+      <span class="material-symbols-outlined attach">attach_file</span>
+      <h2 class="attachmentTitle">Drop files or click to select (files)</h2>
+      <p class="attachmentSub">It can take a few seconds to compress or decompress files.</p>
+    </div>
+     <div class="selectMode">
+        <input type="checkbox" id="dirToggle">
+        <p>Select folder mode (enable to pick entire folder)</p>
+      </div>
+    </div>
+    <div class="selectedFilesArea unactive">
+      <span class="material-symbols-outlined selected">check_small</span>
+      <div class="selectedFilesContent">
+        <h3 class="selectedFilesTitle">Selected files:</h3>
+        <div class="selectedFiles">
+        </div>
+      </div>
+    </div>
+    <div id="messageArea" class="messageArea unactive">
+      <span id="messageIcon" class="material-symbols-outlined messageIcon"></span>
+      <p id="messageText" class="messageText"></p>
+    </div>
+    <button class="mainBtn">
+      <img class=""></img>
+      Compress
+    </button>
+    <div class="infoTab unactive">
+      <div class="infoBlock infoSection">
+        <span class="material-symbols-outlined">code</span>
+        <div>
+          <h3>Open Source</h3>
+          <p>Source code is public — contributions welcome on GitHub.</p>
+        </div>
+      </div>
+
+      <div class="infoBlock infoSection">
+        <span class="material-symbols-outlined">favorite</span>
+        <div>
+          <h3>Made with ❤️</h3>
+          <p>Built with care and passion.</p>
+        </div>
+      </div>
+
+      <div class="infoBlock infoSection">
+        <span class="material-symbols-outlined">info</span>
+        <div>
+          <h3>About ZipZip</h3>
+          <p>Version 1.0 — Built with <a style="color: var(--text-main);" href="https://stuk.github.io/jszip/" target="_blank" rel="noopener">JSZip</a>. No tracking, no ads.</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://www.buymeacoffee.com/gravyt1" target="_blank" rel="noopener"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=gravyt1&button_colour=0084ff&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
+  </main>
+  <script src="lib/jszip.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
