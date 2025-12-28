@@ -108,4 +108,4 @@ How to contribute:
 
 Thank you for helping improve ZipZip — all contributions, big or small, are welcome.
 
-**Built with ❤️ by Gravyt1**
+**Built with ❤️ by Gravyt1 and a bit of ClaudeAI (thank you my friend)**
