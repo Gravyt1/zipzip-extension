@@ -28,7 +28,7 @@ Manage your files with confidence:
 ## 📥 Installation
 
 ### From Chrome Web Store
-👉 Coming soon on the Chrome Web Store
+[Extension Link](https://chromewebstore.google.com/detail/ilalincchjplffngehgdpheakniomhfa?utm_source=item-share-cb)
 
 ### Manual Installation
 1. Clone or download this repository
